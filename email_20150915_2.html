@@ -51,7 +51,7 @@ Sizes: [
 			table[id=bodyTable] {width:100%!important;margin:auto;max-width:600px!important;color:#7A7A7A;font-weight:normal;}
 			img, a img{border:0; outline:none; text-decoration:none;height:auto; line-height:100%;}
 			a {text-decoration:none !important;border-bottom: 1px solid;}
-			h1, h2, h3, h4, h5, h6{color:#5F5F5F; font-weight:normal; font-family:Helvetica; font-size:20px; line-height:125%; text-align:Left; letter-spacing:normal;margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;}
+			h1, h2, h3, h4, h5, h6{color:#222222; font-weight:normal; font-family:Helvetica; font-size:20px; line-height:125%; text-align:Left; letter-spacing:normal;margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;}
 
 			/* CLIENT-SPECIFIC STYLES */
 			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail/Outlook.com to display emails at full width. */
@@ -59,7 +59,7 @@ Sizes: [
 			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up. */
 			#outlook a{padding:0;} /* Force Outlook 2007 and up to provide a "view in browser" message. */
 			img{-ms-interpolation-mode: bicubic;display:block;outline:none; text-decoration:none;} /* Force IE to smoothly render resized images. */
-			body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; font-weight:normal!important;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+			body, table, td, p, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; font-weight:normal!important;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
 			.ExternalClass td[class="ecxflexibleContainerBox"] h3 {padding-top: 10px !important;} /* Force hotmail to push 2-grid sub headers down */
 
 			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
@@ -77,8 +77,8 @@ Sizes: [
 			#emailHeader{background-color:#ffffff;}
 			#emailFooter{background-color:#E1E1E1;}
 			.nestedContainer{background-color:#F8F8F8; border:1px solid #CCCCCC;}
-			.emailButton{background-color:#ffffff; border-collapse:separate;}
-			.buttonContent{color:#FFFFFF; font-family:Helvetica; font-size:18px; font-weight:bold; line-height:100%; padding:15px; text-align:center;}
+			.emailButton{ border-collapse:separate;}
+			.buttonContent{color:#FFFFFF; font-family:Helvetica; font-size:18px; font-weight:bold; line-height:100%; padding:10px; text-align:center;}
 			.buttonContent a{color:#FFFFFF; display:block; text-decoration:none!important; border:0!important;}
 			.emailCalendar{background-color:#FFFFFF; border:1px solid #CCCCCC;}
 			.emailCalendarMonth{background-color:#205478; color:#FFFFFF; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:bold; padding-top:10px; padding-bottom:10px; text-align:center;}
@@ -142,6 +142,7 @@ Sizes: [
 				for left- or right-handed ease of use.
 				*/
 				table[class="emailButton"]{width:100% !important;}
+                table[class="emailButtonTwo"]{width:90% !important;}
 				td[class="buttonContent"]{padding:0 !important;}
 				td[class="buttonContent"] a{padding:15px !important;}
 
@@ -305,7 +306,7 @@ Sizes: [
 														<td align="center" valign="top" width="600" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
-															<table border="0" cellpadding="30" cellspacing="0" width="100%">
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top" class="textContent">
                                                                         <img src="http://cache.fatbraintoys.com/email/20150804/fbt_165.png" width="100%" class="" style="max-width:165px;width:100%;display:block;" alt="Text" title="Text" />
@@ -345,7 +346,7 @@ Sizes: [
 																		<!-- CONTENT TABLE // -->
 																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 																			<tr>
-																				<td align="center" valign="top" style="border-top:3px solid #C8C8C8;"></td>
+																				<td align="center" valign="top" style="border-top:1px solid #222222;"></td>
 																			</tr>
 																		</table>
 																		<!-- // CONTENT TABLE -->
@@ -367,66 +368,35 @@ Sizes: [
                             
                             
 							<!-- NAV ROW // -->
-							<tr mc:hideable>
+							<tr>
 								<td align="center" valign="top">
 									<!-- CENTERING TABLE // -->
 									<table border="0" cellpadding="0" cellspacing="0" width="100%">
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="15" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
 													<tr>
-														<td valign="top" width="600" class="flexibleContainerCell">
-
-															<!-- CONTENT TABLE // -->
-															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
-																<tr>
-																	<td align="left" valign="top" class="flexibleContainerBox">
-																		<table border="0" cellpadding="0" cellspacing="0" width="120" style="max-width: 100%;">
-																			<tr>
-																				<td align="center" class="textContent">
-																					<span style="color:#5F5F5F;line-height:40%;font-family:Helvetica,Arial,sans-serif;font-size:1em;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Shop by Age</span>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-                                                                    <td align="left" valign="top" class="flexibleContainerBox">
-																		<table border="0" cellpadding="0" cellspacing="0" width="120" style="max-width: 100%;">
-																			<tr>
-																				<td align="center" class="textContent">
-																					<span style="color:#5F5F5F;line-height:40%;font-family:Helvetica,Arial,sans-serif;font-size:1em;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Best Sellers</span>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-                                                                    <td align="left" valign="top" class="flexibleContainerBox">
-																		<table border="0" cellpadding="0" cellspacing="0" width="120" style="max-width: 100%;">
-																			<tr>
-																				<td align="center" class="textContent">
-																					<span style="color:#5F5F5F;line-height:40%;font-family:Helvetica,Arial,sans-serif;font-size:1em;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">New Toys</span>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-                                                                    <td align="left" valign="top" class="flexibleContainerBox">
-																		<table border="0" cellpadding="0" cellspacing="0" width="120" style="max-width: 100%;">
-																			<tr>
-																				<td align="center" class="textContent">
-																					<span style="color:#5F5F5F;line-height:40%;font-family:Helvetica,Arial,sans-serif;font-size:1em;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Toy Blog</span>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																	<td align="left" valign="top" class="flexibleContainerBox">
-																		<table border="0" cellpadding="0" cellspacing="0" width="120" style="max-width: 100%;">
-																			<tr>
-																				<td align="center" class="textContent">
-																					<span style="color:#5F5F5F;line-height:40%;font-family:Helvetica,Arial,sans-serif;font-size:1em;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">My Account</span>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
+														<td align="center" valign="top" width="100%" class="flexibleContainerCell">
+                                                            <!-- CONTENT TABLE // -->
+                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="emailButton" >
+																    <tr>
+																	   <td align="center" valign="top" class="buttonContent" style="">
+																		<a style="color:#222222;line-height:1.25em;font-family:Helvetica,Arial,sans-serif;font-size:80%;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:center;" href="#" target="_blank">Shop by Age</a>
+																	   </td>
+                                                                        <td align="center" valign="top" class="buttonContent" style="">
+																		<a style="color:#222222;line-height:1.25em;font-family:Helvetica,Arial,sans-serif;font-size:80%;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:center;" href="#" target="_blank">Best Sellers</a>
+																	   </td>
+                                                                        <td align="center" valign="top" class="buttonContent" style="">
+																		<a style="color:#222222;line-height:1.25em;font-family:Helvetica,Arial,sans-serif;font-size:80%;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:center;" href="#" target="_blank">New Toys</a>
+																	   </td>
+                                                                        <td align="center" valign="top" class="buttonContent" style="">
+																		<a style="color:#222222;line-height:1.25em;font-family:Helvetica,Arial,sans-serif;font-size:80%;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:center;" href="#" target="_blank">Toy Blog</a>
+																	   </td>
+                                                                        <td align="center" valign="top" class="buttonContent" style="">
+																		<a style="color:#222222;line-height:1.25em;font-family:Helvetica,Arial,sans-serif;font-size:80%;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:center;" href="#" target="_blank">My Account</a>
+																	   </td>
+																    </tr>
 															</table>
 															<!-- // CONTENT TABLE -->
 
@@ -461,7 +431,79 @@ Sizes: [
 																		<!-- CONTENT TABLE // -->
 																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 																			<tr>
-																				<td align="center" valign="top" style="border-top:3px solid #C8C8C8;"></td>
+																				<td align="center" valign="top" style="border-top:1px solid #222222;"></td>
+																			</tr>
+																		</table>
+																		<!-- // CONTENT TABLE -->
+
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+												<!-- // FLEXIBLE CONTAINER -->
+											</td>
+										</tr>
+									</table>
+									<!-- // CENTERING TABLE -->
+								</td>
+							</tr>
+							<!-- // END -->
+                            
+                            
+							<!-- NAV ROW // -->
+							<tr>
+								<td align="center" valign="top">
+									<!-- CENTERING TABLE // -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td align="center" valign="top">
+												<!-- FLEXIBLE CONTAINER // -->
+												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+													<tr>
+														<td align="center" valign="top" width="100%" class="flexibleContainerCell">
+                                                            <!-- CONTENT TABLE // -->
+                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="emailButtonTwo" bgcolor="#8dd3e5">
+																    <tr>
+																	   <td align="center" valign="top" class="buttonContent" style="">
+																		<a style="color:#222222;line-height:1.25em;font-family:Helvetica,Arial,sans-serif;font-size:90%;font-weight:bold;margin-top:0;margin-bottom:3px;text-align:center;" href="#" target="_blank">$3.99 FLAT RATE SHIPPING...No Minimums, No Gimmicks, No Kidding!</a>
+																	   </td>
+															</table>
+															<!-- // CONTENT TABLE -->
+
+														</td>
+													</tr>
+												</table>
+												<!-- // FLEXIBLE CONTAINER -->
+											</td>
+										</tr>
+									</table>
+									<!-- // CENTERING TABLE -->
+								</td>
+							</tr>
+							<!-- // NAV ROW -->
+                            
+                            
+                            <!-- MODULE DIVIDER // -->
+							<tr>
+								<td align="center" valign="top">
+									<!-- CENTERING TABLE // -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td align="center" valign="top">
+												<!-- FLEXIBLE CONTAINER // -->
+												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+													<tr>
+														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+															<table class="flexibleContainerCellDivider" border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td align="center" valign="top" style="padding-top:0px;padding-bottom:0px;">
+
+																		<!-- CONTENT TABLE // -->
+																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																			<tr>
+																				<td align="center" valign="top" style="border-top:1px solid #222222;"></td>
 																			</tr>
 																		</table>
 																		<!-- // CONTENT TABLE -->
@@ -495,12 +537,47 @@ Sizes: [
 														<td align="center" valign="top" width="600" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
-															<table border="0" cellpadding="30" cellspacing="0" width="100%">
+															
+															<!-- // CONTENT TABLE -->
+
+														</td>
+													</tr>
+												</table>
+												<!-- // FLEXIBLE CONTAINER -->
+											</td>
+										</tr>
+									</table>
+									<!-- // CENTERING TABLE -->
+								</td>
+							</tr>
+							<!-- // HEADER ROW -->
+                            
+                            
+                            <!-- HERO IMAGE ROW // -->
+							<tr>
+								<td align="center" valign="top">
+									<!-- CENTERING TABLE // -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td align="center" valign="top">
+												<!-- FLEXIBLE CONTAINER // -->
+												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
+													<tr>
+														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+
+															<!-- CONTENT TABLE // -->
+                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
 																<tr>
 																    <td align="center" valign="top" class="textContent">
-																		<h1 style="color:#FFFFFF;line-height:100%;font-family:Helvetica,Arial,sans-serif;font-size:35px;font-weight:normal;margin-bottom:5px;text-align:center;">Introduction header</h1>
-																		<h2 style="text-align:center;font-weight:normal;font-family:Helvetica,Arial,sans-serif;font-size:23px;margin-bottom:10px;color:#205478;line-height:135%;">Subheader introduction</h2>
-																		<div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#FFFFFF;line-height:135%;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</div>
+																		<h1 style="color:#222222;line-height:100%;font-family:Helvetica,Arial,sans-serif;font-size:38px;font-weight:bold;margin-bottom:5px;text-align:center;text-transform:uppercase;">Create and Build Meaningful Projects</h1>
+																		<h2 style="text-align:center;font-weight:bold;font-family:Helvetica,Arial,sans-serif;font-size:23px;margin-bottom:10px;color:#222222;line-height:135%;">With Fat Brain Toys</h2>
+																	</td>
+																</tr>
+															</table>
+															<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td valign="top" class="imageContent">
+																		<img src="http://www.charlesmudy.com/respmail/respmail-full.jpg" width="600" class="flexibleImage" style="max-width:600px;width:100%;display:block;" alt="Text" title="Text" />
 																	</td>
 																</tr>
 															</table>
@@ -516,7 +593,7 @@ Sizes: [
 									<!-- // CENTERING TABLE -->
 								</td>
 							</tr>
-							<!-- // HEADER ROW -->
+							<!-- // HERO IMAGE ROW -->
                             
                             
                             <!-- MODULE DIVIDER // -->
@@ -537,7 +614,7 @@ Sizes: [
 																		<!-- CONTENT TABLE // -->
 																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 																			<tr>
-																				<td align="center" valign="top" style="border-top:2px solid #C8C8C8;"></td>
+																				<td align="center" valign="top" style="border-top:1px solid #222222;"></td>
 																			</tr>
 																		</table>
 																		<!-- // CONTENT TABLE -->
@@ -571,7 +648,7 @@ Sizes: [
 														<td align="center" valign="top" width="600" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
-															<table border="0" cellpadding="15" cellspacing="0" width="100%">
+															<table border="0" cellpadding="10" cellspacing="0" width="100%">
 																<tr>
 																    <td align="center" valign="top" class="textContent">
 																		<h2 style="text-align:center;font-weight:bold;font-family:Helvetica,Arial,sans-serif;font-size:23px;margin-bottom:0px;color:#000000;line-height:135%;">SHOP FOR TOP TOYS BY AGE</h2>
@@ -611,7 +688,7 @@ Sizes: [
 																		<!-- CONTENT TABLE // -->
 																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 																			<tr>
-																				<td align="center" valign="top" style="border-top:2px solid #C8C8C8;"></td>
+																				<td align="center" valign="top" style="border-top:1px solid #222222;"></td>
 																			</tr>
 																		</table>
 																		<!-- // CONTENT TABLE -->
@@ -644,25 +721,97 @@ Sizes: [
 										<tr>
 											<td align="center" valign="top">
 												<!-- FLEXIBLE CONTAINER // -->
-												<table border="0" cellpadding="20" cellspacing="0" width="600" class="flexibleContainer">
+												<table border="0" cellpadding="24" cellspacing="0" width="600" class="flexibleContainer">
 													<tr>
 														<td align="center" valign="top" width="600" class="flexibleContainerCell">
                                                             <!-- CONTENT TABLE // -->
                                                                 <table border="0" cellpadding="6" cellspacing="6" width="100%" class="emailButton" >
 																    <tr>
 																	   <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
-																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">toddlers</a>
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">Babies</a>
 																	   </td>
                                                                         <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
-																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">Confirmation</a>
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">10 year olds</a>
 																	   </td>
 																    </tr>
                                                                     <tr>
 																	   <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
-																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">Confirmation</a>
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">Toddlers</a>
 																	   </td>
                                                                         <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
-																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">Confirmation</a>
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">11 year olds</a>
+																	   </td>
+																    </tr>
+                                                                    <tr>
+																	   <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">1 year olds</a>
+																	   </td>
+                                                                        <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">12 year olds</a>
+																	   </td>
+																    </tr>
+                                                                    <tr>
+																	   <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">2 year olds</a>
+																	   </td>
+                                                                        <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">13 year olds</a>
+																	   </td>
+																    </tr>
+                                                                    <tr>
+																	   <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">3 year olds</a>
+																	   </td>
+                                                                        <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">14 year olds</a>
+																	   </td>
+																    </tr>
+                                                                    <tr>
+																	   <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">4 year olds</a>
+																	   </td>
+                                                                        <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">15 year olds</a>
+																	   </td>
+																    </tr>
+                                                                    <tr>
+																	   <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">5 year olds</a>
+																	   </td>
+                                                                        <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">16 year olds</a>
+																	   </td>
+																    </tr>
+                                                                    <tr>
+																	   <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">6 year olds</a>
+																	   </td>
+                                                                        <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">17 year olds</a>
+																	   </td>
+																    </tr>
+                                                                    <tr>
+																	   <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">7 year olds</a>
+																	   </td>
+                                                                        <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">18 year olds</a>
+																	   </td>
+																    </tr>
+                                                                    <tr>
+																	   <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">8 year olds</a>
+																	   </td>
+                                                                        <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">Adults</a>
+																	   </td>
+																    </tr>
+                                                                    <tr>
+																	   <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">9 year olds</a>
+																	   </td>
+                                                                        <td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px; background-color: #f0f0f0;">
+																		<a style="color:#3db7d7;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">Seniors</a>
 																	   </td>
 																    </tr>
 															</table>
@@ -682,9 +831,7 @@ Sizes: [
                             
                             
                             
-                            
-                            
-                            <!-- MODULE DIVIDER // -->
+                            <!-- TOP MODULE DIVIDER - TOYS FOR LITTLE ONES HEADER // -->
 							<tr>
 								<td align="center" valign="top">
 									<!-- CENTERING TABLE // -->
@@ -702,7 +849,7 @@ Sizes: [
 																		<!-- CONTENT TABLE // -->
 																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 																			<tr>
-																				<td align="center" valign="top" style="border-top:2px solid #C8C8C8;"></td>
+																				<td align="center" valign="top" style="border-top:1px solid #222222;"></td>
 																			</tr>
 																		</table>
 																		<!-- // CONTENT TABLE -->
@@ -736,10 +883,10 @@ Sizes: [
 														<td align="center" valign="top" width="600" class="flexibleContainerCell">
 
 															<!-- CONTENT TABLE // -->
-															<table border="0" cellpadding="15" cellspacing="0" width="100%">
+															<table border="0" cellpadding="10" cellspacing="0" width="100%">
 																<tr>
 																    <td align="center" valign="top" class="textContent">
-																		<h2 style="text-align:center;font-weight:bold;font-family:Helvetica,Arial,sans-serif;font-size:23px;margin-bottom:0px;color:#000000;line-height:135%;">TOYS FOR LITTLE ONES</h2>
+																		<a href="#"><h2 style="text-align:center;font-weight:bold;font-family:Helvetica,Arial,sans-serif;font-size:23px;margin-bottom:0px;color:#000000;line-height:135%;">TOYS FOR LITTLE ONES</h2></a>
 																	</td>
 																</tr>
 															</table>
@@ -758,7 +905,7 @@ Sizes: [
 							<!-- // TOYS FOR LITTLE ONES ROW -->
                             
                             
-                            <!-- MODULE DIVIDER // -->
+                            <!-- BOTTOM MODULE DIVIDER - TOYS FOR LITTLE ONES HEADER  // -->
 							<tr>
 								<td align="center" valign="top">
 									<!-- CENTERING TABLE // -->
@@ -776,7 +923,7 @@ Sizes: [
 																		<!-- CONTENT TABLE // -->
 																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 																			<tr>
-																				<td align="center" valign="top" style="border-top:2px solid #C8C8C8;"></td>
+																				<td align="center" valign="top" style="border-top:1px solid #222222;"></td>
 																			</tr>
 																		</table>
 																		<!-- // CONTENT TABLE -->
@@ -815,10 +962,11 @@ Sizes: [
 																	<td align="center" valign="top" class="flexibleContainerBox">
 																		<table border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%;">
 																			<tr>
+                                                                                
 																				<td align="center" class="textContent">
-																					<img src="img/placeimg_500_500_grayscale_people.jpg" width="210" height="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
-																					<h3 style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:10px;margin-bottom:3px;text-align:left;">Left Column</h3>
-																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Shop Now &nbsp;&#9658;</div>
+																					<a href="#"><img src="img/p1.jpg" width="210" height="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
+																					<h3 style="color:#222222;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:10px;margin-bottom:3px;text-align:left;">Wooden Workbench</h3>
+																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#222222;line-height:135%;">Shop Now &nbsp;&#9658;</div></a>
 																				</td>
 																			</tr>
 																		</table>
@@ -827,10 +975,10 @@ Sizes: [
 																		<table class="flexibleContainerBoxNext" border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%;">
 																			<tr>
 																				<td align="center" class="textContent">
-																					<img src="img/placeimg_500_500_grayscale_people.jpg" width="210" height="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
+																					<a href="#"><img src="img/p2.jpg" width="210" height="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
                                                                                     
-																					<h3 style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:10px;margin-bottom:3px;text-align:left;">Right Column</h3>
-																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Shop Now &nbsp;&#9658;</div>
+																					<h3 style="color:#222222;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:10px;margin-bottom:3px;text-align:left;">Paint Your Own Bank</h3>
+																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#222222;line-height:135%;">Shop Now &nbsp;&#9658;</div></a>
 																				</td>
 																			</tr>
 																		</table>
@@ -885,6 +1033,417 @@ Sizes: [
 								</td>
 							</tr>
 							<!-- //  TOYS FOR LITTLE ONE PRODUCT SHOP MORE BUTTON ROW -->
+                            
+                            
+                            
+                            <!-- TOP MODULE DIVIDER - CREATIVE PROJECTS HEADER // -->
+							<tr>
+								<td align="center" valign="top">
+									<!-- CENTERING TABLE // -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td align="center" valign="top">
+												<!-- FLEXIBLE CONTAINER // -->
+												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+													<tr>
+														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+															<table class="flexibleContainerCellDivider" border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td align="center" valign="top" style="padding-top:0px;padding-bottom:0px;">
+
+																		<!-- CONTENT TABLE // -->
+																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																			<tr>
+																				<td align="center" valign="top" style="border-top:1px solid #222222;"></td>
+																			</tr>
+																		</table>
+																		<!-- // CONTENT TABLE -->
+
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+												<!-- // FLEXIBLE CONTAINER -->
+											</td>
+										</tr>
+									</table>
+									<!-- // CENTERING TABLE -->
+								</td>
+							</tr>
+							<!-- // END -->
+                            
+                            
+							<!-- CREATIVE PROJECTS HEADER ROW // -->
+							<tr>
+								<td align="center" valign="top">
+									<!-- CENTERING TABLE // -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%" style="color:#FFFFFF;">
+										<tr>
+											<td align="center" valign="top">
+												<!-- FLEXIBLE CONTAINER // -->
+												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+													<tr>
+														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+
+															<!-- CONTENT TABLE // -->
+															<table border="0" cellpadding="10" cellspacing="0" width="100%">
+																<tr>
+																    <td align="center" valign="top" class="textContent">
+																		<a href="#"><h2 style="text-align:center;font-weight:bold;font-family:Helvetica,Arial,sans-serif;font-size:23px;margin-bottom:0px;color:#000000;line-height:135%;">CREATIVE PROJECTS</h2></a>
+																	</td>
+																</tr>
+															</table>
+															<!-- // CONTENT TABLE -->
+
+														</td>
+													</tr>
+												</table>
+												<!-- // FLEXIBLE CONTAINER -->
+											</td>
+										</tr>
+									</table>
+									<!-- // CENTERING TABLE -->
+								</td>
+							</tr>
+							<!-- // CREATIVE PROJECTS HEADER ROW -->
+                            
+                            
+                            <!-- BOTTOM MODULE DIVIDER - CREATIVE PROJECTS HEADER  // -->
+							<tr>
+								<td align="center" valign="top">
+									<!-- CENTERING TABLE // -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td align="center" valign="top">
+												<!-- FLEXIBLE CONTAINER // -->
+												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+													<tr>
+														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+															<table class="flexibleContainerCellDivider" border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td align="center" valign="top" style="padding-top:0px;padding-bottom:0px;">
+
+																		<!-- CONTENT TABLE // -->
+																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																			<tr>
+																				<td align="center" valign="top" style="border-top:1px solid #222222;"></td>
+																			</tr>
+																		</table>
+																		<!-- // CONTENT TABLE -->
+
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+												<!-- // FLEXIBLE CONTAINER -->
+											</td>
+										</tr>
+									</table>
+									<!-- // CENTERING TABLE -->
+								</td>
+							</tr>
+							<!-- // END -->
+
+
+							<!-- CREATIVE PROJECTS PRODUCT ROW // -->
+							<tr>
+								<td align="center" valign="top">
+									<!-- CENTERING TABLE // -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td align="center" valign="top">
+												<!-- FLEXIBLE CONTAINER // -->
+												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
+													<tr>
+														<td valign="top" width="600" class="flexibleContainerCell">
+
+															<!-- CONTENT TABLE // -->
+															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td align="center" valign="top" class="flexibleContainerBox">
+																		<table border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%;">
+																			<tr>
+                                                                                
+																				<td align="center" class="textContent">
+																					<a href="#"><img src="img/p3.jpg" width="210" height="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
+																					<h3 style="color:#222222;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:10px;margin-bottom:3px;text-align:left;">Red Toolbox Level 2 - Birdhouse</h3>
+																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#222222;line-height:135%;">Shop Now &nbsp;&#9658;</div></a>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																	<td align="center" valign="middle" class="flexibleContainerBox">
+																		<table class="flexibleContainerBoxNext" border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%;">
+																			<tr>
+																				<td align="center" class="textContent">
+																					<a href="#"><img src="img/p4.jpg" width="210" height="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
+                                                                                    
+																					<h3 style="color:#222222;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:10px;margin-bottom:3px;text-align:left;">PlushCraft Purr-fect Pillow</h3>
+																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#222222;line-height:135%;">Shop Now &nbsp;&#9658;</div></a>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+															<!-- // CONTENT TABLE -->
+
+														</td>
+													</tr>
+												</table>
+												<!-- // FLEXIBLE CONTAINER -->
+											</td>
+										</tr>
+									</table>
+									<!-- // CENTERING TABLE -->
+								</td>
+							</tr>
+							<!-- // CREATIVE PROJECTS PRODUCT ROW -->
+                            
+                            
+                            <!-- CREATIVE PROJECTS PRODUCT SHOP MORE BUTTON ROW // -->
+							<tr>
+								<td align="center" valign="top">
+									<!-- CENTERING TABLE // -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr style="padding-top:0;">
+											<td align="center" valign="top">
+												<!-- FLEXIBLE CONTAINER // -->
+												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
+													<tr>
+														<td style="padding-top:0;" align="center" valign="top" width="600" class="flexibleContainerCell">
+
+															<!-- CONTENT TABLE // -->
+															<table border="0" cellpadding="0" cellspacing="0" width="60%" class="emailButton" style="background-color: #3db7d7;">
+																<tr>
+																	<td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px;">
+																		<a style="color:#222222;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">Shop now for even more &nbsp;&#9658;</a>
+																	</td>
+																</tr>
+															</table>
+															<!-- // CONTENT TABLE -->
+
+														</td>
+													</tr>
+												</table>
+												<!-- // FLEXIBLE CONTAINER -->
+											</td>
+										</tr>
+									</table>
+									<!-- // CENTERING TABLE -->
+								</td>
+							</tr>
+							<!-- //  CREATIVE PROJECTS PRODUCT SHOP MORE BUTTON ROW -->
+                            
+                            
+                            
+                            
+                             <!-- TOP MODULE DIVIDER - BOOKS FOR CREATING HEADER // -->
+							<tr>
+								<td align="center" valign="top">
+									<!-- CENTERING TABLE // -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td align="center" valign="top">
+												<!-- FLEXIBLE CONTAINER // -->
+												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+													<tr>
+														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+															<table class="flexibleContainerCellDivider" border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td align="center" valign="top" style="padding-top:0px;padding-bottom:0px;">
+
+																		<!-- CONTENT TABLE // -->
+																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																			<tr>
+																				<td align="center" valign="top" style="border-top:1px solid #222222;"></td>
+																			</tr>
+																		</table>
+																		<!-- // CONTENT TABLE -->
+
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+												<!-- // FLEXIBLE CONTAINER -->
+											</td>
+										</tr>
+									</table>
+									<!-- // CENTERING TABLE -->
+								</td>
+							</tr>
+							<!-- // END -->
+                            
+                            
+							<!-- BOOKS FOR CREATING HEADER ROW // -->
+							<tr>
+								<td align="center" valign="top">
+									<!-- CENTERING TABLE // -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%" style="color:#FFFFFF;">
+										<tr>
+											<td align="center" valign="top">
+												<!-- FLEXIBLE CONTAINER // -->
+												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+													<tr>
+														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+
+															<!-- CONTENT TABLE // -->
+															<table border="0" cellpadding="10" cellspacing="0" width="100%">
+																<tr>
+																    <td align="center" valign="top" class="textContent">
+																		<a href="#"><h2 style="text-align:center;font-weight:bold;font-family:Helvetica,Arial,sans-serif;font-size:23px;margin-bottom:0px;color:#000000;line-height:135%;">BOOKS FOR CREATING</h2></a>
+																	</td>
+																</tr>
+															</table>
+															<!-- // CONTENT TABLE -->
+
+														</td>
+													</tr>
+												</table>
+												<!-- // FLEXIBLE CONTAINER -->
+											</td>
+										</tr>
+									</table>
+									<!-- // CENTERING TABLE -->
+								</td>
+							</tr>
+							<!-- // CREATIVE PROJECTS HEADER ROW -->
+                            
+                            
+                            <!-- BOTTOM MODULE DIVIDER - BOOKS FOR CREATING HEADER  // -->
+							<tr>
+								<td align="center" valign="top">
+									<!-- CENTERING TABLE // -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td align="center" valign="top">
+												<!-- FLEXIBLE CONTAINER // -->
+												<table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+													<tr>
+														<td align="center" valign="top" width="600" class="flexibleContainerCell">
+															<table class="flexibleContainerCellDivider" border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td align="center" valign="top" style="padding-top:0px;padding-bottom:0px;">
+
+																		<!-- CONTENT TABLE // -->
+																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																			<tr>
+																				<td align="center" valign="top" style="border-top:1px solid #222222;"></td>
+																			</tr>
+																		</table>
+																		<!-- // CONTENT TABLE -->
+
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+												<!-- // FLEXIBLE CONTAINER -->
+											</td>
+										</tr>
+									</table>
+									<!-- // CENTERING TABLE -->
+								</td>
+							</tr>
+							<!-- // END -->
+
+
+							<!-- BOOKS FOR CREATING PRODUCT ROW // -->
+							<tr>
+								<td align="center" valign="top">
+									<!-- CENTERING TABLE // -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td align="center" valign="top">
+												<!-- FLEXIBLE CONTAINER // -->
+												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
+													<tr>
+														<td valign="top" width="600" class="flexibleContainerCell">
+
+															<!-- CONTENT TABLE // -->
+															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td align="center" valign="top" class="flexibleContainerBox">
+																		<table border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%;">
+																			<tr>
+                                                                                
+																				<td align="center" class="textContent">
+																					<a href="#"><img src="img/p5.jpg" width="210" height="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
+																					<h3 style="color:#222222;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:10px;margin-bottom:3px;text-align:left;">My First Toolbox - Lift-the-Flap Activity Book</h3>
+																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#222222;line-height:135%;">Shop Now &nbsp;&#9658;</div></a>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																	<td align="center" valign="middle" class="flexibleContainerBox">
+																		<table class="flexibleContainerBoxNext" border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%;">
+																			<tr>
+																				<td align="center" class="textContent">
+																					<a href="#"><img src="img/p6.jpg" width="210" height="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
+                                                                                    
+																					<h3 style="color:#222222;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:10px;margin-bottom:3px;text-align:left;">The Big Book of Things to Make</h3>
+																					<div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#222222;line-height:135%;">Shop Now &nbsp;&#9658;</div></a>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+															<!-- // CONTENT TABLE -->
+
+														</td>
+													</tr>
+												</table>
+												<!-- // FLEXIBLE CONTAINER -->
+											</td>
+										</tr>
+									</table>
+									<!-- // CENTERING TABLE -->
+								</td>
+							</tr>
+							<!-- // BOOKS FOR CREATING PRODUCT ROW -->
+                            
+                            
+                            <!-- BOOKS FOR CREATING PRODUCT SHOP MORE BUTTON ROW // -->
+							<tr>
+								<td align="center" valign="top">
+									<!-- CENTERING TABLE // -->
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr style="padding-top:0;">
+											<td align="center" valign="top">
+												<!-- FLEXIBLE CONTAINER // -->
+												<table border="0" cellpadding="30" cellspacing="0" width="600" class="flexibleContainer">
+													<tr>
+														<td style="padding-top:0;" align="center" valign="top" width="600" class="flexibleContainerCell">
+
+															<!-- CONTENT TABLE // -->
+															<table border="0" cellpadding="0" cellspacing="0" width="60%" class="emailButton" style="background-color: #3db7d7;">
+																<tr>
+																	<td align="center" valign="middle" class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px;">
+																		<a style="color:#222222;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;" href="#" target="_blank">Shop now for even more &nbsp;&#9658;</a>
+																	</td>
+																</tr>
+															</table>
+															<!-- // CONTENT TABLE -->
+
+														</td>
+													</tr>
+												</table>
+												<!-- // FLEXIBLE CONTAINER -->
+											</td>
+										</tr>
+									</table>
+									<!-- // CENTERING TABLE -->
+								</td>
+							</tr>
+							<!-- //  BOOKS FOR CREATING PRODUCT SHOP MORE BUTTON ROW -->
 
 
 							<!-- MODULE ROW // -->
@@ -906,7 +1465,7 @@ Sizes: [
 																		<table border="0" cellpadding="0" cellspacing="0" width="100%">
 																			<tr>
 																				<td valign="top" class="textContent">
-																					<div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#5F5F5F;line-height:135%;">Empty row for your custom contents</div>
+																					<div style="text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#222222;line-height:135%;">Empty row for your custom contents</div>
 																				</td>
 																			</tr>
 																		</table>
